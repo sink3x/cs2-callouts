@@ -1,0 +1,1758 @@
+{
+"de_anubis": [
+{
+"id": "Canal",
+"en": "Canal",
+"x": 657,
+"y": 561,
+"n": 235
+},
+{
+"id": "TSpawn",
+"en": "T Spawn",
+"x": 519,
+"y": 887,
+"n": 207
+},
+{
+"id": "Ruins",
+"en": "Ruins",
+"x": 345,
+"y": 756,
+"n": 197
+},
+{
+"id": "CTSpawn",
+"en": "CT Spawn",
+"x": 425,
+"y": 149,
+"n": 178
+},
+{
+"id": "BombsiteA",
+"en": "A Site",
+"x": 758,
+"y": 284,
+"n": 151
+},
+{
+"id": "OutsideLong",
+"en": "Outside Long",
+"x": 254,
+"y": 621,
+"n": 142
+},
+{
+"id": "BombsiteB",
+"en": "B Site",
+"x": 290,
+"y": 518,
+"n": 133
+},
+{
+"id": "Water",
+"en": "Water",
+"x": 483,
+"y": 91,
+"n": 104
+},
+{
+"id": "Street",
+"en": "Street",
+"x": 666,
+"y": 712,
+"n": 96
+},
+{
+"id": "CTSideUpper",
+"en": "CT Side Upper",
+"x": 437,
+"y": 240,
+"n": 67
+},
+{
+"id": "Bridge",
+"en": "Bridge",
+"x": 487,
+"y": 639,
+"n": 61
+},
+{
+"id": "Middle",
+"en": "Middle",
+"x": 554,
+"y": 426,
+"n": 55
+},
+{
+"id": "Tunnel",
+"en": "Tunnel",
+"x": 579,
+"y": 174,
+"n": 51
+},
+{
+"id": "TunnelStairs",
+"en": "Tunnel Stairs",
+"x": 606,
+"y": 268,
+"n": 47
+},
+{
+"id": "Alley",
+"en": "Alley",
+"x": 297,
+"y": 405,
+"n": 46
+},
+{
+"id": "Walkway",
+"en": "Walkway",
+"x": 680,
+"y": 371,
+"n": 42
+},
+{
+"id": "Main",
+"en": "Main",
+"x": 824,
+"y": 396,
+"n": 39
+},
+{
+"id": "Fountain",
+"en": "Fountain",
+"x": 831,
+"y": 277,
+"n": 35
+},
+{
+"id": "Connector",
+"en": "Connector",
+"x": 419,
+"y": 596,
+"n": 33
+},
+{
+"id": "PalaceInterior",
+"en": "Palace Interior",
+"x": 469,
+"y": 376,
+"n": 31
+},
+{
+"id": "BackofB",
+"en": "Back of B",
+"x": 386,
+"y": 497,
+"n": 28
+},
+{
+"id": "TSideUpper",
+"en": "T Side Upper",
+"x": 776,
+"y": 582,
+"n": 26
+},
+{
+"id": "Heaven",
+"en": "Heaven",
+"x": 684,
+"y": 245,
+"n": 21
+},
+{
+"id": "LowerTunnel",
+"en": "Lower Tunnel",
+"x": 373,
+"y": 334,
+"n": 21
+},
+{
+"id": "TStairs",
+"en": "T Stairs",
+"x": 671,
+"y": 648,
+"n": 19
+},
+{
+"id": "Bricks",
+"en": "Bricks",
+"x": 350,
+"y": 419,
+"n": 12
+},
+{
+"id": "SnipersNest",
+"en": "Snipers Nest",
+"x": 306,
+"y": 284,
+"n": 12
+},
+{
+"id": "MidDoors",
+"en": "Mid Doors",
+"x": 561,
+"y": 527,
+"n": 9
+}
+],
+"de_train": [
+{
+"id": "BombsiteA",
+"en": "A Site",
+"x": 597,
+"y": 479,
+"n": 168
+},
+{
+"id": "BombsiteB",
+"en": "B Site",
+"x": 618,
+"y": 760,
+"n": 72
+},
+{
+"id": "Tunnel2",
+"en": "Tunnel2",
+"x": 871,
+"y": 502,
+"n": 59
+},
+{
+"id": "BackofB",
+"en": "Back of B",
+"x": 334,
+"y": 737,
+"n": 35
+},
+{
+"id": "TSpawn",
+"en": "T Spawn",
+"x": 258,
+"y": 208,
+"n": 34
+},
+{
+"id": "CTSpawn",
+"en": "CT Spawn",
+"x": 902,
+"y": 718,
+"n": 31
+},
+{
+"id": "Ivy",
+"en": "Ivy",
+"x": 808,
+"y": 216,
+"n": 26
+},
+{
+"id": "Alley",
+"en": "Alley",
+"x": 592,
+"y": 171,
+"n": 25
+},
+{
+"id": "Tunnel1",
+"en": "Tunnel1",
+"x": 863,
+"y": 389,
+"n": 22
+},
+{
+"id": "TMain",
+"en": "T Main",
+"x": 376,
+"y": 337,
+"n": 20
+},
+{
+"id": "Connector",
+"en": "Connector",
+"x": 671,
+"y": 618,
+"n": 18
+},
+{
+"id": "Scaffolding",
+"en": "Scaffolding",
+"x": 623,
+"y": 855,
+"n": 18
+},
+{
+"id": "BPlatform",
+"en": "B Platform",
+"x": 689,
+"y": 679,
+"n": 16
+},
+{
+"id": "Kitchen",
+"en": "Kitchen",
+"x": 384,
+"y": 334,
+"n": 13
+},
+{
+"id": "LockerRoom",
+"en": "Locker Room",
+"x": 381,
+"y": 466,
+"n": 12
+},
+{
+"id": "Tunnel",
+"en": "Tunnel",
+"x": 326,
+"y": 500,
+"n": 11
+},
+{
+"id": "SnipersNest",
+"en": "Snipers Nest",
+"x": 697,
+"y": 573,
+"n": 10
+},
+{
+"id": "PopDog",
+"en": "Pop Dog",
+"x": 442,
+"y": 566,
+"n": 10
+},
+{
+"id": "TStairs",
+"en": "T Stairs",
+"x": 326,
+"y": 292,
+"n": 9
+},
+{
+"id": "ElectricalBox",
+"en": "Electrical Box",
+"x": 487,
+"y": 497,
+"n": 9
+},
+{
+"id": "LadderTop",
+"en": "Ladder Top",
+"x": 389,
+"y": 545,
+"n": 9
+},
+{
+"id": "Dumpster",
+"en": "Dumpster",
+"x": 434,
+"y": 197,
+"n": 8
+},
+{
+"id": "Tunnels",
+"en": "Tunnels",
+"x": 921,
+"y": 571,
+"n": 3
+},
+{
+"id": "LadderBottom",
+"en": "Ladder Bottom",
+"x": 381,
+"y": 566,
+"n": 2
+}
+],
+"de_cache": [
+{
+"id": "Middle",
+"en": "Middle",
+"x": 377,
+"y": 544,
+"n": 73
+},
+{
+"id": "TSpawn",
+"en": "T Spawn",
+"x": 834,
+"y": 564,
+"n": 66
+},
+{
+"id": "BombsiteA",
+"en": "A Site",
+"x": 336,
+"y": 293,
+"n": 60
+},
+{
+"id": "BombsiteB",
+"en": "B Site",
+"x": 323,
+"y": 740,
+"n": 59
+},
+{
+"id": "Entrance",
+"en": "Entrance",
+"x": 196,
+"y": 646,
+"n": 56
+},
+{
+"id": "Warehouse",
+"en": "Warehouse",
+"x": 472,
+"y": 346,
+"n": 51
+},
+{
+"id": "LongA",
+"en": "Long A",
+"x": 554,
+"y": 297,
+"n": 40
+},
+{
+"id": "LongHall",
+"en": "Long Hall",
+"x": 487,
+"y": 749,
+"n": 38
+},
+{
+"id": "Garage",
+"en": "Garage",
+"x": 621,
+"y": 506,
+"n": 34
+},
+{
+"id": "CTSpawn",
+"en": "CT Spawn",
+"x": 106,
+"y": 506,
+"n": 28
+},
+{
+"id": "Truck",
+"en": "Truck",
+"x": 196,
+"y": 402,
+"n": 20
+},
+{
+"id": "Forklift",
+"en": "Forklift",
+"x": 394,
+"y": 327,
+"n": 20
+},
+{
+"id": "ARamp",
+"en": "A Ramp",
+"x": 330,
+"y": 445,
+"n": 19
+},
+{
+"id": "Back",
+"en": "Back",
+"x": 722,
+"y": 710,
+"n": 18
+},
+{
+"id": "Rafters",
+"en": "Rafters",
+"x": 270,
+"y": 689,
+"n": 16
+},
+{
+"id": "Catwalk",
+"en": "Catwalk",
+"x": 386,
+"y": 348,
+"n": 13
+},
+{
+"id": "Squeaky",
+"en": "Squeaky",
+"x": 416,
+"y": 202,
+"n": 11
+},
+{
+"id": "StorageRoom",
+"en": "Storage Room",
+"x": 373,
+"y": 635,
+"n": 10
+},
+{
+"id": "Window",
+"en": "Window",
+"x": 509,
+"y": 798,
+"n": 6
+},
+{
+"id": "Quad",
+"en": "Quad",
+"x": 307,
+"y": 217,
+"n": 4
+},
+{
+"id": "Dumpster",
+"en": "Dumpster",
+"x": 560,
+"y": 626,
+"n": 3
+},
+{
+"id": "Ducts",
+"en": "Ducts",
+"x": 448,
+"y": 618,
+"n": 3
+},
+{
+"id": "Roof",
+"en": "Roof",
+"x": 478,
+"y": 458,
+"n": 3
+}
+],
+"de_ancient": [
+{
+"id": "Outside",
+"en": "Outside",
+"x": 284,
+"y": 656,
+"n": 185
+},
+{
+"id": "BombsiteA",
+"en": "A Site",
+"x": 259,
+"y": 263,
+"n": 78
+},
+{
+"id": "BombsiteB",
+"en": "B Site",
+"x": 782,
+"y": 388,
+"n": 61
+},
+{
+"id": "TSpawn",
+"en": "T Spawn",
+"x": 486,
+"y": 807,
+"n": 60
+},
+{
+"id": "Ruins",
+"en": "Ruins",
+"x": 755,
+"y": 685,
+"n": 48
+},
+{
+"id": "Middle",
+"en": "Middle",
+"x": 469,
+"y": 500,
+"n": 44
+},
+{
+"id": "House",
+"en": "House",
+"x": 494,
+"y": 278,
+"n": 42
+},
+{
+"id": "MainHall",
+"en": "Main Hall",
+"x": 215,
+"y": 444,
+"n": 40
+},
+{
+"id": "SideEntrance",
+"en": "Side Entrance",
+"x": 665,
+"y": 478,
+"n": 39
+},
+{
+"id": "TSideLower",
+"en": "T Side Lower",
+"x": 740,
+"y": 566,
+"n": 38
+},
+{
+"id": "CTSpawn",
+"en": "CT Spawn",
+"x": 499,
+"y": 146,
+"n": 35
+},
+{
+"id": "SideHall",
+"en": "Side Hall",
+"x": 311,
+"y": 419,
+"n": 34
+},
+{
+"id": "Alley",
+"en": "Alley",
+"x": 709,
+"y": 268,
+"n": 34
+},
+{
+"id": "Water",
+"en": "Water",
+"x": 696,
+"y": 795,
+"n": 26
+},
+{
+"id": "TSideUpper",
+"en": "T Side Upper",
+"x": 611,
+"y": 588,
+"n": 20
+},
+{
+"id": "Ramp",
+"en": "Ramp",
+"x": 831,
+"y": 529,
+"n": 18
+},
+{
+"id": "BackHall",
+"en": "Back Hall",
+"x": 330,
+"y": 151,
+"n": 13
+},
+{
+"id": "TopofMid",
+"en": "Top of Mid",
+"x": 479,
+"y": 390,
+"n": 11
+},
+{
+"id": "Tunnel",
+"en": "Tunnel",
+"x": 618,
+"y": 783,
+"n": 4
+}
+],
+"de_overpass": [
+{
+"id": "UpperPark",
+"en": "Upper Park",
+"x": 238,
+"y": 524,
+"n": 273
+},
+{
+"id": "BombsiteA",
+"en": "A Site",
+"x": 454,
+"y": 193,
+"n": 224
+},
+{
+"id": "LowerPark",
+"en": "Lower Park",
+"x": 468,
+"y": 456,
+"n": 145
+},
+{
+"id": "Water",
+"en": "Water",
+"x": 614,
+"y": 404,
+"n": 125
+},
+{
+"id": "Canal",
+"en": "Canal",
+"x": 830,
+"y": 467,
+"n": 114
+},
+{
+"id": "TSpawn",
+"en": "T Spawn",
+"x": 715,
+"y": 857,
+"n": 99
+},
+{
+"id": "Fountain",
+"en": "Fountain",
+"x": 445,
+"y": 721,
+"n": 95
+},
+{
+"id": "Playground",
+"en": "Playground",
+"x": 410,
+"y": 817,
+"n": 91
+},
+{
+"id": "UnderA",
+"en": "Under A",
+"x": 536,
+"y": 251,
+"n": 56
+},
+{
+"id": "Restroom",
+"en": "Restroom",
+"x": 372,
+"y": 500,
+"n": 55
+},
+{
+"id": "BackofA",
+"en": "Back of A",
+"x": 532,
+"y": 120,
+"n": 53
+},
+{
+"id": "BombsiteB",
+"en": "B Site",
+"x": 745,
+"y": 308,
+"n": 47
+},
+{
+"id": "Tunnels",
+"en": "Tunnels",
+"x": 604,
+"y": 704,
+"n": 45
+},
+{
+"id": "SnipersNest",
+"en": "Snipers Nest",
+"x": 534,
+"y": 209,
+"n": 34
+},
+{
+"id": "Walkway",
+"en": "Walkway",
+"x": 567,
+"y": 366,
+"n": 33
+},
+{
+"id": "Alley",
+"en": "Alley",
+"x": 792,
+"y": 648,
+"n": 31
+},
+{
+"id": "StorageRoom",
+"en": "Storage Room",
+"x": 454,
+"y": 61,
+"n": 30
+},
+{
+"id": "Connector",
+"en": "Connector",
+"x": 548,
+"y": 540,
+"n": 27
+},
+{
+"id": "Construction",
+"en": "Construction",
+"x": 715,
+"y": 437,
+"n": 24
+},
+{
+"id": "Lobby",
+"en": "Lobby",
+"x": 447,
+"y": 99,
+"n": 22
+},
+{
+"id": "Pipe",
+"en": "Pipe",
+"x": 736,
+"y": 512,
+"n": 9
+},
+{
+"id": "Bridge",
+"en": "Bridge",
+"x": 684,
+"y": 387,
+"n": 8
+},
+{
+"id": "TStairs",
+"en": "T Stairs",
+"x": 745,
+"y": 735,
+"n": 6
+},
+{
+"id": "SideAlley",
+"en": "Side Alley",
+"x": 865,
+"y": 709,
+"n": 6
+},
+{
+"id": "Stairs",
+"en": "Stairs",
+"x": 572,
+"y": 153,
+"n": 2
+},
+{
+"id": "Pit",
+"en": "Pit",
+"x": 492,
+"y": 137,
+"n": 1
+}
+],
+"de_dust2": [
+{
+"id": "TSpawn",
+"en": "T Spawn",
+"x": 358,
+"y": 883,
+"n": 127
+},
+{
+"id": "BombsiteB",
+"en": "B Site",
+"x": 153,
+"y": 211,
+"n": 125
+},
+{
+"id": "OutsideTunnel",
+"en": "Outside Tunnel",
+"x": 189,
+"y": 674,
+"n": 81
+},
+{
+"id": "LongA",
+"en": "Long A",
+"x": 863,
+"y": 353,
+"n": 73
+},
+{
+"id": "LongDoors",
+"en": "Long Doors",
+"x": 758,
+"y": 550,
+"n": 65
+},
+{
+"id": "UpperTunnel",
+"en": "Upper Tunnel",
+"x": 150,
+"y": 450,
+"n": 63
+},
+{
+"id": "MidDoors",
+"en": "Mid Doors",
+"x": 436,
+"y": 250,
+"n": 57
+},
+{
+"id": "BDoors",
+"en": "B Doors",
+"x": 319,
+"y": 192,
+"n": 54
+},
+{
+"id": "TopofMid",
+"en": "Top of Mid",
+"x": 464,
+"y": 658,
+"n": 42
+},
+{
+"id": "BombsiteA",
+"en": "A Site",
+"x": 785,
+"y": 128,
+"n": 41
+},
+{
+"id": "OutsideLong",
+"en": "Outside Long",
+"x": 616,
+"y": 722,
+"n": 40
+},
+{
+"id": "TunnelStairs",
+"en": "Tunnel Stairs",
+"x": 297,
+"y": 461,
+"n": 32
+},
+{
+"id": "UnderA",
+"en": "Under A",
+"x": 758,
+"y": 231,
+"n": 25
+},
+{
+"id": "Middle",
+"en": "Middle",
+"x": 444,
+"y": 480,
+"n": 25
+},
+{
+"id": "TRamp",
+"en": "T Ramp",
+"x": 125,
+"y": 877,
+"n": 25
+},
+{
+"id": "ShortStairs",
+"en": "Short Stairs",
+"x": 630,
+"y": 350,
+"n": 24
+},
+{
+"id": "ARamp",
+"en": "A Ramp",
+"x": 877,
+"y": 131,
+"n": 23
+},
+{
+"id": "Pit",
+"en": "Pit",
+"x": 869,
+"y": 616,
+"n": 23
+},
+{
+"id": "CTSpawn",
+"en": "CT Spawn",
+"x": 586,
+"y": 217,
+"n": 22
+},
+{
+"id": "Side",
+"en": "Side",
+"x": 927,
+"y": 555,
+"n": 18
+},
+{
+"id": "ExtendedA",
+"en": "Extended A",
+"x": 669,
+"y": 167,
+"n": 18
+},
+{
+"id": "Catwalk",
+"en": "Catwalk",
+"x": 530,
+"y": 422,
+"n": 13
+},
+{
+"id": "Hole",
+"en": "Hole",
+"x": 257,
+"y": 125,
+"n": 12
+},
+{
+"id": "LowerTunnel",
+"en": "Lower Tunnel",
+"x": 366,
+"y": 394,
+"n": 7
+},
+{
+"id": "Ramp",
+"en": "Ramp",
+"x": 835,
+"y": 95,
+"n": 6
+},
+{
+"id": "Short",
+"en": "Short",
+"x": 663,
+"y": 153,
+"n": 3
+}
+],
+"de_inferno": [
+{
+"id": "BombsiteB",
+"en": "B Site",
+"x": 507,
+"y": 200,
+"n": 134
+},
+{
+"id": "CTSpawn",
+"en": "CT Spawn",
+"x": 818,
+"y": 323,
+"n": 114
+},
+{
+"id": "LowerMid",
+"en": "Lower Mid",
+"x": 270,
+"y": 738,
+"n": 72
+},
+{
+"id": "SecondMid",
+"en": "Second Mid",
+"x": 465,
+"y": 772,
+"n": 72
+},
+{
+"id": "BombsiteA",
+"en": "A Site",
+"x": 830,
+"y": 681,
+"n": 70
+},
+{
+"id": "TSpawn",
+"en": "T Spawn",
+"x": 137,
+"y": 705,
+"n": 69
+},
+{
+"id": "Banana",
+"en": "Banana",
+"x": 492,
+"y": 424,
+"n": 55
+},
+{
+"id": "Ruins",
+"en": "Ruins",
+"x": 650,
+"y": 168,
+"n": 53
+},
+{
+"id": "Apartments",
+"en": "Apartments",
+"x": 616,
+"y": 814,
+"n": 53
+},
+{
+"id": "TopofMid",
+"en": "Top of Mid",
+"x": 702,
+"y": 639,
+"n": 28
+},
+{
+"id": "Pit",
+"en": "Pit",
+"x": 889,
+"y": 826,
+"n": 28
+},
+{
+"id": "Middle",
+"en": "Middle",
+"x": 529,
+"y": 651,
+"n": 25
+},
+{
+"id": "Upstairs",
+"en": "Upstairs",
+"x": 337,
+"y": 730,
+"n": 19
+},
+{
+"id": "Graveyard",
+"en": "Graveyard",
+"x": 916,
+"y": 705,
+"n": 19
+},
+{
+"id": "Balcony",
+"en": "Balcony",
+"x": 803,
+"y": 802,
+"n": 19
+},
+{
+"id": "Library",
+"en": "Library",
+"x": 919,
+"y": 498,
+"n": 15
+},
+{
+"id": "BackAlley",
+"en": "Back Alley",
+"x": 559,
+"y": 895,
+"n": 15
+},
+{
+"id": "TRamp",
+"en": "T Ramp",
+"x": 364,
+"y": 597,
+"n": 13
+},
+{
+"id": "Arch",
+"en": "Arch",
+"x": 773,
+"y": 540,
+"n": 11
+},
+{
+"id": "Kitchen",
+"en": "Kitchen",
+"x": 389,
+"y": 708,
+"n": 9
+},
+{
+"id": "Quad",
+"en": "Quad",
+"x": 697,
+"y": 772,
+"n": 5
+},
+{
+"id": "Deck",
+"en": "Deck",
+"x": 433,
+"y": 752,
+"n": 5
+},
+{
+"id": "Underpass",
+"en": "Underpass",
+"x": 473,
+"y": 629,
+"n": 4
+},
+{
+"id": "Bridge",
+"en": "Bridge",
+"x": 339,
+"y": 794,
+"n": 3
+}
+],
+"de_nuke": [
+{
+"id": "Outside",
+"en": "Outside",
+"x": 609,
+"y": 622,
+"n": 214
+},
+{
+"id": "Roof",
+"en": "Roof",
+"x": 473,
+"y": 521,
+"n": 115
+},
+{
+"id": "BombsiteA",
+"en": "A Site",
+"x": 578,
+"y": 528,
+"n": 108
+},
+{
+"id": "BombsiteB",
+"en": "B Site",
+"x": 579,
+"y": 514,
+"n": 95
+},
+{
+"id": "TSpawn",
+"en": "T Spawn",
+"x": 192,
+"y": 537,
+"n": 72
+},
+{
+"id": "Ramp",
+"en": "Ramp",
+"x": 571,
+"y": 371,
+"n": 56
+},
+{
+"id": "CTSpawn",
+"en": "CT Spawn",
+"x": 893,
+"y": 481,
+"n": 52
+},
+{
+"id": "Lobby",
+"en": "Lobby",
+"x": 475,
+"y": 518,
+"n": 44
+},
+{
+"id": "Silo",
+"en": "Silo",
+"x": 494,
+"y": 631,
+"n": 42
+},
+{
+"id": "Tunnels",
+"en": "Tunnels",
+"x": 621,
+"y": 626,
+"n": 39
+},
+{
+"id": "Garage",
+"en": "Garage",
+"x": 717,
+"y": 668,
+"n": 25
+},
+{
+"id": "Hut",
+"en": "Hut",
+"x": 534,
+"y": 532,
+"n": 19
+},
+{
+"id": "Rafters",
+"en": "Rafters",
+"x": 569,
+"y": 442,
+"n": 18
+},
+{
+"id": "HutRoof",
+"en": "Hut Roof",
+"x": 541,
+"y": 553,
+"n": 13
+},
+{
+"id": "Secret",
+"en": "Secret",
+"x": 691,
+"y": 709,
+"n": 13
+},
+{
+"id": "Observation",
+"en": "Observation",
+"x": 651,
+"y": 471,
+"n": 11
+},
+{
+"id": "Hell",
+"en": "Hell",
+"x": 647,
+"y": 464,
+"n": 11
+},
+{
+"id": "LockerRoom",
+"en": "Locker Room",
+"x": 651,
+"y": 497,
+"n": 10
+},
+{
+"id": "Squeaky",
+"en": "Squeaky",
+"x": 489,
+"y": 577,
+"n": 10
+},
+{
+"id": "Decon",
+"en": "Decon",
+"x": 508,
+"y": 594,
+"n": 9
+},
+{
+"id": "Admin",
+"en": "Admin",
+"x": 639,
+"y": 413,
+"n": 9
+},
+{
+"id": "Trophy",
+"en": "Trophy",
+"x": 506,
+"y": 458,
+"n": 8
+},
+{
+"id": "Vents",
+"en": "Vents",
+"x": 583,
+"y": 601,
+"n": 8
+},
+{
+"id": "Crane",
+"en": "Crane",
+"x": 546,
+"y": 544,
+"n": 7
+},
+{
+"id": "Mini",
+"en": "Mini",
+"x": 569,
+"y": 631,
+"n": 7
+},
+{
+"id": "Heaven",
+"en": "Heaven",
+"x": 642,
+"y": 451,
+"n": 6
+},
+{
+"id": "Vending",
+"en": "Vending",
+"x": 464,
+"y": 479,
+"n": 5
+},
+{
+"id": "Control",
+"en": "Control",
+"x": 506,
+"y": 410,
+"n": 5
+},
+{
+"id": "Catwalk",
+"en": "Catwalk",
+"x": 667,
+"y": 458,
+"n": 4
+}
+],
+"de_vertigo": [
+{
+"id": "TSpawn",
+"en": "T Spawn",
+"x": 297,
+"y": 730,
+"n": 124
+},
+{
+"id": "BombsiteB",
+"en": "B Site",
+"x": 233,
+"y": 254,
+"n": 75
+},
+{
+"id": "BombsiteA",
+"en": "A Site",
+"x": 706,
+"y": 605,
+"n": 70
+},
+{
+"id": "Tunnels",
+"en": "Tunnels",
+"x": 337,
+"y": 510,
+"n": 65
+},
+{
+"id": "Bridge",
+"en": "Bridge",
+"x": 532,
+"y": 483,
+"n": 63
+},
+{
+"id": "CTSpawn",
+"en": "CT Spawn",
+"x": 538,
+"y": 242,
+"n": 42
+},
+{
+"id": "Mid",
+"en": "Mid",
+"x": 328,
+"y": 376,
+"n": 39
+},
+{
+"id": "Pit",
+"en": "Pit",
+"x": 181,
+"y": 437,
+"n": 32
+},
+{
+"id": "Scaffolding",
+"en": "Scaffolding",
+"x": 532,
+"y": 681,
+"n": 29
+},
+{
+"id": "Elevator",
+"en": "Elevator",
+"x": 563,
+"y": 489,
+"n": 22
+},
+{
+"id": "TCorridorUp",
+"en": "T Corridor Up",
+"x": 383,
+"y": 523,
+"n": 21
+},
+{
+"id": "Side",
+"en": "Side",
+"x": 523,
+"y": 599,
+"n": 20
+},
+{
+"id": "ARamp",
+"en": "A Ramp",
+"x": 606,
+"y": 663,
+"n": 20
+},
+{
+"id": "BackofA",
+"en": "Back of A",
+"x": 715,
+"y": 388,
+"n": 16
+},
+{
+"id": "BackDoor",
+"en": "Back Door",
+"x": 609,
+"y": 382,
+"n": 13
+},
+{
+"id": "LadderBottom",
+"en": "Ladder Bottom",
+"x": 450,
+"y": 599,
+"n": 12
+},
+{
+"id": "Connector",
+"en": "Connector",
+"x": 358,
+"y": 523,
+"n": 11
+},
+{
+"id": "APlatform",
+"en": "A Platform",
+"x": 603,
+"y": 785,
+"n": 10
+},
+{
+"id": "LadderTop",
+"en": "Ladder Top",
+"x": 444,
+"y": 584,
+"n": 10
+},
+{
+"id": "TopofMid",
+"en": "Top of Mid",
+"x": 502,
+"y": 361,
+"n": 10
+},
+{
+"id": "BPlatform",
+"en": "B Platform",
+"x": 410,
+"y": 291,
+"n": 9
+},
+{
+"id": "BackofB",
+"en": "Back of B",
+"x": 410,
+"y": 227,
+"n": 7
+},
+{
+"id": "Crane",
+"en": "Crane",
+"x": 664,
+"y": 694,
+"n": 3
+}
+],
+"de_mirage": [
+{
+"id": "BombsiteA",
+"en": "A Site",
+"x": 564,
+"y": 719,
+"n": 111
+},
+{
+"id": "CTSpawn",
+"en": "CT Spawn",
+"x": 339,
+"y": 661,
+"n": 110
+},
+{
+"id": "BombsiteB",
+"en": "B Site",
+"x": 266,
+"y": 292,
+"n": 71
+},
+{
+"id": "TopofMid",
+"en": "Top of Mid",
+"x": 686,
+"y": 443,
+"n": 50
+},
+{
+"id": "TSpawn",
+"en": "T Spawn",
+"x": 874,
+"y": 380,
+"n": 49
+},
+{
+"id": "BackAlley",
+"en": "Back Alley",
+"x": 554,
+"y": 216,
+"n": 43
+},
+{
+"id": "Middle",
+"en": "Middle",
+"x": 547,
+"y": 478,
+"n": 39
+},
+{
+"id": "PalaceAlley",
+"en": "Palace Alley",
+"x": 818,
+"y": 576,
+"n": 37
+},
+{
+"id": "SideAlley",
+"en": "Side Alley",
+"x": 745,
+"y": 238,
+"n": 33
+},
+{
+"id": "Catwalk",
+"en": "Catwalk",
+"x": 491,
+"y": 380,
+"n": 33
+},
+{
+"id": "TicketBooth",
+"en": "Ticket Booth",
+"x": 442,
+"y": 805,
+"n": 32
+},
+{
+"id": "PalaceInterior",
+"en": "Palace Interior",
+"x": 784,
+"y": 729,
+"n": 31
+},
+{
+"id": "TRamp",
+"en": "T Ramp",
+"x": 691,
+"y": 639,
+"n": 26
+},
+{
+"id": "Connector",
+"en": "Connector",
+"x": 500,
+"y": 541,
+"n": 24
+},
+{
+"id": "Apartments",
+"en": "Apartments",
+"x": 359,
+"y": 192,
+"n": 23
+},
+{
+"id": "Shop",
+"en": "Shop",
+"x": 242,
+"y": 436,
+"n": 22
+},
+{
+"id": "House",
+"en": "House",
+"x": 701,
+"y": 177,
+"n": 16
+},
+{
+"id": "Tunnel",
+"en": "Tunnel",
+"x": 432,
+"y": 351,
+"n": 13
+},
+{
+"id": "Jungle",
+"en": "Jungle",
+"x": 425,
+"y": 619,
+"n": 13
+},
+{
+"id": "Stairs",
+"en": "Stairs",
+"x": 530,
+"y": 629,
+"n": 10
+},
+{
+"id": "Ladder",
+"en": "Ladder",
+"x": 420,
+"y": 373,
+"n": 10
+},
+{
+"id": "SnipersNest",
+"en": "Snipers Nest",
+"x": 388,
+"y": 507,
+"n": 9
+},
+{
+"id": "Truck",
+"en": "Truck",
+"x": 210,
+"y": 192,
+"n": 8
+},
+{
+"id": "TunnelStairs",
+"en": "Tunnel Stairs",
+"x": 483,
+"y": 253,
+"n": 7
+},
+{
+"id": "Scaffolding",
+"en": "Scaffolding",
+"x": 637,
+"y": 727,
+"n": 7
+},
+{
+"id": "Balcony",
+"en": "Balcony",
+"x": 237,
+"y": 185,
+"n": 4
+}
+]
+}

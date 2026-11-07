@@ -1,0 +1,4 @@
+.venv/
+prev/
+ovl/
+__pycache__/

@@ -1,0 +1,72 @@
+{
+ "de_anubis": {
+  "before": 0.773,
+  "after": 0.795,
+  "dx": -1,
+  "dy": 3,
+  "s": 0.98
+ },
+ "de_train": {
+  "before": 0.652,
+  "after": 0.696,
+  "dx": -15,
+  "dy": -3,
+  "s": 0.88
+ },
+ "de_cache": {
+  "before": 0.741,
+  "after": 0.773,
+  "dx": -6,
+  "dy": 2,
+  "s": 0.97
+ },
+ "de_ancient": {
+  "before": 0.905,
+  "after": 0.915,
+  "dx": 0,
+  "dy": -1,
+  "s": 1.0
+ },
+ "de_overpass": {
+  "before": 0.888,
+  "after": 0.892,
+  "dx": 0,
+  "dy": -1,
+  "s": 1.0
+ },
+ "de_dust2": {
+  "before": 0.846,
+  "after": 0.846,
+  "dx": 0,
+  "dy": 0,
+  "s": 1.0
+ },
+ "de_inferno": {
+  "before": 0.735,
+  "after": 0.742,
+  "dx": -1,
+  "dy": -4,
+  "s": 0.99
+ },
+ "de_nuke": {
+  "before": 0.908,
+  "after": 0.912,
+  "dx": 0,
+  "dy": -2,
+  "s": 1.0
+ },
+ "de_vertigo": {
+  "before": 0.939,
+  "after": 0.94,
+  "dx": 0,
+  "dy": 1,
+  "s": 1.0
+ },
+ "de_mirage": {
+  "before": 0.889,
+  "after": 0.893,
+  "dx": -1,
+  "dy": -1,
+  "s": 1.0
+ }
+}

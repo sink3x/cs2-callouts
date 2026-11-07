@@ -1,0 +1,82 @@
+{
+ "de_mirage": {
+  "pos_x": -3230.0,
+  "pos_y": 1713.0,
+  "scale": 5.0,
+  "areas": 2544,
+  "zlo": -294,
+  "zhi": -34
+ },
+ "de_dust2": {
+  "pos_x": -2476.0,
+  "pos_y": 3239.0,
+  "scale": 4.4,
+  "areas": 2242,
+  "zlo": -123,
+  "zhi": 156
+ },
+ "de_inferno": {
+  "pos_x": -2087.0,
+  "pos_y": 3870.0,
+  "scale": 4.9,
+  "areas": 2738,
+  "zlo": -60,
+  "zhi": 263
+ },
+ "de_nuke": {
+  "pos_x": -3453.0,
+  "pos_y": 2887.0,
+  "scale": 7.0,
+  "areas": 3040,
+  "zlo": -765,
+  "zhi": -46
+ },
+ "de_ancient": {
+  "pos_x": -2953.0,
+  "pos_y": 2164.0,
+  "scale": 5.0,
+  "areas": 1969,
+  "zlo": -166,
+  "zhi": 180
+ },
+ "de_anubis": {
+  "pos_x": -2796.0,
+  "pos_y": 3328.0,
+  "scale": 5.22,
+  "areas": 2633,
+  "zlo": -186,
+  "zhi": 81
+ },
+ "de_overpass": {
+  "pos_x": -4831.0,
+  "pos_y": 1781.0,
+  "scale": 5.2,
+  "areas": 3938,
+  "zlo": 17,
+  "zhi": 549
+ },
+ "de_train": {
+  "pos_x": -2308.0,
+  "pos_y": 2078.0,
+  "scale": 4.082077,
+  "areas": 2154,
+  "zlo": -348,
+  "zhi": 35
+ },
+ "de_vertigo": {
+  "pos_x": -3168.0,
+  "pos_y": 1762.0,
+  "scale": 4.0,
+  "areas": 2105,
+  "zlo": 11492,
+  "zhi": 11876
+ },
+ "de_cache": {
+  "pos_x": -2000.0,
+  "pos_y": 3250.0,
+  "scale": 5.5,
+  "areas": 2209,
+  "zlo": 1612,
+  "zhi": 1871
+ }
+}
