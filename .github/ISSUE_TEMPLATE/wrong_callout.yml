@@ -1,0 +1,16 @@
+name: Wrong translation or position
+description: A name is wrong or a callout is misplaced
+labels: [data]
+body:
+  - type: input
+    id: map
+    attributes: { label: Map, placeholder: de_mirage }
+    validations: { required: true }
+  - type: input
+    id: place
+    attributes: { label: Place (English name) }
+    validations: { required: true }
+  - type: textarea
+    id: what
+    attributes: { label: What is wrong and what should it be? }
+    validations: { required: true }

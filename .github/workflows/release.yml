@@ -1,0 +1,34 @@
+name: Release
+on:
+  push:
+    tags: ['v*']
+permissions:
+  contents: write
+  id-token: write
+  attestations: write
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 -m unittest discover -s tests -v
+      - name: Package
+        run: |
+          v="${GITHUB_REF_NAME#v}"
+          mkdir -p "pkg/cs2-callouts-$v"
+          cp -r callouts.json schematic LICENSE README.md "pkg/cs2-callouts-$v/"
+          (cd pkg && zip -qr "../cs2-callouts-$v.zip" "cs2-callouts-$v")
+          sha256sum "cs2-callouts-$v.zip" callouts.json > SHA256SUMS
+          cat SHA256SUMS
+          awk -v v="$v" '$0 ~ "^## \\["v"\\]" {p=1; next} /^## \[/ {p=0} p' CHANGELOG.md > notes.md
+          [ -s notes.md ] || echo "Release $GITHUB_REF_NAME" > notes.md
+      - uses: actions/attest-build-provenance@v2
+        with:
+          subject-path: cs2-callouts-*.zip
+      - name: Publish
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release create "$GITHUB_REF_NAME" cs2-callouts-*.zip callouts.json SHA256SUMS --title "$GITHUB_REF_NAME" --notes-file notes.md

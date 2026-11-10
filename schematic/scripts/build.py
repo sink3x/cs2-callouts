@@ -1,11 +1,14 @@
 import csv, json, math
 from collections import defaultdict
+from pathlib import Path
 from names import NAMES, MAP_NAMES
-raw = json.load(open('places_raw.json')); fit = json.load(open('fit_report.json'))
+ROOT = Path(__file__).resolve().parent.parent  # the repository root; run from anywhere
+DATA = ROOT / 'data'
+raw = json.load(open(DATA / 'places_raw.json')); fit = json.load(open(DATA / 'fit_report.json'))
 meta = {}
 # z по местам (площадь-взвешенно) из исходной nav-информации
 zs = defaultdict(lambda: defaultdict(list))
-for r in csv.DictReader(open('nav_places.csv')):
+for r in csv.DictReader(open(DATA / 'nav_places.csv')):
     if not r['name']: continue
     z = (float(r['z1']) + float(r['z2'])) / 2; a = abs(float(r['x2']) - float(r['x1'])) * abs(float(r['y2']) - float(r['y1']))
     zs[r['map']][r['name']].append((z, a))
@@ -44,5 +47,5 @@ for m, pl in raw.items():
     out['maps'][m] = {'name': MAP_NAMES[m], 'fit': q, 'conf': 'high' if q >= .85 else ('mid' if q >= .75 else 'low'), 'places': rows}
 for en, (ru, de, fr) in NAMES.items(): out['names'][en] = {'ru': ru, 'de': de, 'fr': fr}
 print('без перевода:', sorted(missing)); print({m: (v['conf'], len(v['places'])) for m, v in out['maps'].items()})
-json.dump(out, open('callouts.json', 'w'), ensure_ascii=False, separators=(',', ':'))
-import os; print(os.path.getsize('callouts.json'), 'байт')
+json.dump(out, open(ROOT / 'callouts.json', 'w'), ensure_ascii=False, separators=(',', ':'))
+import os; print(os.path.getsize(ROOT / 'callouts.json'), 'bytes')
