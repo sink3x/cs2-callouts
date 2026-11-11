@@ -25,7 +25,7 @@ jobs:
           cat SHA256SUMS
           awk -v v="$v" '$0 ~ "^## \\["v"\\]" {p=1; next} /^## \[/ {p=0} p' CHANGELOG.md > notes.md
           [ -s notes.md ] || echo "Release $GITHUB_REF_NAME" > notes.md
-      - uses: actions/attest-build-provenance@v2
+      - uses: actions/attest-build-provenance@v4
         with:
           subject-path: cs2-callouts-*.zip
       - name: Publish
