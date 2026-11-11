@@ -1,13 +1,13 @@
-# cs2-callouts
+# cs2-server-admin-callouts
 
-[![CI](https://github.com/sink3x/cs2-callouts/actions/workflows/ci.yml/badge.svg)](https://github.com/sink3x/cs2-callouts/actions/workflows/ci.yml)
-[![Release](https://img.shields.io/github/v/release/sink3x/cs2-callouts)](https://github.com/sink3x/cs2-callouts/releases)
+[![CI](https://github.com/sink3x/cs2-server-admin-callouts/actions/workflows/ci.yml/badge.svg)](https://github.com/sink3x/cs2-server-admin-callouts/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/github/v/release/sink3x/cs2-server-admin-callouts)](https://github.com/sink3x/cs2-server-admin-callouts/releases)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 [English](README.md) · Русский
 
 **Позиции callouts для 10 карт Counter-Strike 2** с названиями мест на **английском, русском, немецком и французском**. Это данные страницы «Callouts» проекта
-**[cs2-yc-sandbox](https://github.com/sink3x/cs2-yc-sandbox)**, вынесенные в отдельный репозиторий, чтобы ими мог пользоваться любой.
+**[cs2-server-admin-panel](https://github.com/sink3x/cs2-server-admin-panel)**, вынесенные в отдельный репозиторий, чтобы ими мог пользоваться любой.
 
 | Карты | Dust II, Mirage, Inferno, Nuke, Overpass, Ancient, Anubis, Train, Vertigo, Cache |
 |---|---|
@@ -44,7 +44,7 @@
 ## Картинки
 
 Основной набор рассчитан на рисование поверх радаров **Boltobserv** (`src/maps/<карта>/radar.png`, 1536x1536). Это радары Valve в том виде, как их распространяет Boltobserv под **GPL-3.0** (Ancient и Anubis: MIT, от Lexogrine);
-мы их в этот репозиторий **не копируем**. [cs2-yc-sandbox](https://github.com/sink3x/cs2-yc-sandbox) везёт уменьшенные копии и описывает их происхождение в `app/admin/public/callouts/NOTICE.md`. Права на исходные изображения принадлежат Valve Corporation.
+мы их в этот репозиторий **не копируем**. [cs2-server-admin-panel](https://github.com/sink3x/cs2-server-admin-panel) везёт уменьшенные копии и описывает их происхождение в `app/admin/public/callouts/NOTICE.md`. Права на исходные изображения принадлежат Valve Corporation.
 
 ## Пересборка и тесты
 

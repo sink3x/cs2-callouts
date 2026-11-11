@@ -4,6 +4,9 @@ Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versioning: [S
 
 ## [Unreleased]
 
+### Changed
+- Repository renamed from `cs2-callouts` (old GitHub URLs redirect).
+
 ## [1.0.0] - 2026-11-10
 
 First public release.

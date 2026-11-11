@@ -1,13 +1,13 @@
-# cs2-callouts
+# cs2-server-admin-callouts
 
-[![CI](https://github.com/sink3x/cs2-callouts/actions/workflows/ci.yml/badge.svg)](https://github.com/sink3x/cs2-callouts/actions/workflows/ci.yml)
-[![Release](https://img.shields.io/github/v/release/sink3x/cs2-callouts)](https://github.com/sink3x/cs2-callouts/releases)
+[![CI](https://github.com/sink3x/cs2-server-admin-callouts/actions/workflows/ci.yml/badge.svg)](https://github.com/sink3x/cs2-server-admin-callouts/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/github/v/release/sink3x/cs2-server-admin-callouts)](https://github.com/sink3x/cs2-server-admin-callouts/releases)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 English · [Русский](README.ru.md)
 
 **Callout positions for 10 Counter-Strike 2 maps**, with place names in **English, Russian, German and French**. It is the data behind the Callouts page of
-**[cs2-yc-sandbox](https://github.com/sink3x/cs2-yc-sandbox)**, published on its own so anybody can reuse it.
+**[cs2-server-admin-panel](https://github.com/sink3x/cs2-server-admin-panel)**, published on its own so anybody can reuse it.
 
 | Maps | Dust II, Mirage, Inferno, Nuke, Overpass, Ancient, Anubis, Train, Vertigo, Cache |
 |---|---|
@@ -59,16 +59,16 @@ Per map: `box` is `[x, y, size]`, the square of the `0..1000` frame that holds t
 ## Images
 
 The main dataset is meant to be drawn on top of the radars of **Boltobserv** (`src/maps/<map>/radar.png`, 1536x1536). Those images are Valve's radar overviews as redistributed by Boltobserv under **GPL-3.0** (Ancient and Anubis: MIT, from Lexogrine),
-and we do **not** copy them into this repository. [cs2-yc-sandbox](https://github.com/sink3x/cs2-yc-sandbox) bundles resized copies and documents their origin in `app/admin/public/callouts/NOTICE.md`. The underlying artwork belongs to Valve Corporation.
+and we do **not** copy them into this repository. [cs2-server-admin-panel](https://github.com/sink3x/cs2-server-admin-panel) bundles resized copies and documents their origin in `app/admin/public/callouts/NOTICE.md`. The underlying artwork belongs to Valve Corporation.
 
 ## Use it
 
 ```js
-const data = await (await fetch('https://raw.githubusercontent.com/sink3x/cs2-callouts/main/callouts.json')).json();
+const data = await (await fetch('https://raw.githubusercontent.com/sink3x/cs2-server-admin-callouts/main/callouts.json')).json();
 const label = (en, lang) => (lang === 'en' ? en : data.names[en][lang]);
 ```
 
-Or download `cs2-callouts-<version>.zip` (both datasets and `SHA256SUMS`) from the [releases](https://github.com/sink3x/cs2-callouts/releases).
+Or download `cs2-server-admin-callouts-<version>.zip` (both datasets and `SHA256SUMS`) from the [releases](https://github.com/sink3x/cs2-server-admin-callouts/releases).
 
 ## Rebuild and test
 

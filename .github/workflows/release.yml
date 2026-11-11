@@ -18,17 +18,17 @@ jobs:
       - name: Package
         run: |
           v="${GITHUB_REF_NAME#v}"
-          mkdir -p "pkg/cs2-callouts-$v"
-          cp -r callouts.json schematic LICENSE README.md "pkg/cs2-callouts-$v/"
-          (cd pkg && zip -qr "../cs2-callouts-$v.zip" "cs2-callouts-$v")
-          sha256sum "cs2-callouts-$v.zip" callouts.json > SHA256SUMS
+          mkdir -p "pkg/cs2-server-admin-callouts-$v"
+          cp -r callouts.json schematic LICENSE README.md "pkg/cs2-server-admin-callouts-$v/"
+          (cd pkg && zip -qr "../cs2-server-admin-callouts-$v.zip" "cs2-server-admin-callouts-$v")
+          sha256sum "cs2-server-admin-callouts-$v.zip" callouts.json > SHA256SUMS
           cat SHA256SUMS
           awk -v v="$v" '$0 ~ "^## \\["v"\\]" {p=1; next} /^## \[/ {p=0} p' CHANGELOG.md > notes.md
           [ -s notes.md ] || echo "Release $GITHUB_REF_NAME" > notes.md
       - uses: actions/attest-build-provenance@v2
         with:
-          subject-path: cs2-callouts-*.zip
+          subject-path: cs2-server-admin-callouts-*.zip
       - name: Publish
         env:
           GH_TOKEN: ${{ github.token }}
-        run: gh release create "$GITHUB_REF_NAME" cs2-callouts-*.zip callouts.json SHA256SUMS --title "$GITHUB_REF_NAME" --notes-file notes.md
+        run: gh release create "$GITHUB_REF_NAME" cs2-server-admin-callouts-*.zip callouts.json SHA256SUMS --title "$GITHUB_REF_NAME" --notes-file notes.md
